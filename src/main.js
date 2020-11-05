@@ -1,7 +1,7 @@
 window.Vue = require('vue')
-import test from "./components/test";
+import header from "./components/header";
 
-Vue.component('example', test)
+Vue.component('header-menu', header)
 
 
 const app = new Vue({
