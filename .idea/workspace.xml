@@ -17,15 +17,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2727aa41-6a5b-446b-a802-386415cf98cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/header.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/mix-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/test.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/all.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/all.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +61,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/css" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -75,7 +73,12 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\afraalian aplication\src\css" />
+      <recent name="C:\afraalian aplication\public\css" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\afraalian aplication\src\css" />
       <recent name="C:\afraalian aplication\public" />
       <recent name="C:\afraalian aplication\src" />
     </key>
@@ -90,8 +93,30 @@
       <updated>1604503840950</updated>
       <workItem from="1604503842165" duration="638000" />
       <workItem from="1604506994792" duration="8951000" />
-      <workItem from="1604552717801" duration="777000" />
+      <workItem from="1604552717801" duration="3827000" />
     </task>
+    <task id="LOCAL-00001" summary="load html code and css code">
+      <created>1604553741472</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604553741472</updated>
+    </task>
+    <task id="LOCAL-00002" summary="install font awsome">
+      <created>1604553896295</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604553896295</updated>
+    </task>
+    <task id="LOCAL-00003" summary="edit file css font awsome">
+      <created>1604554128256</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604554128256</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,7 +148,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="install laravel-mix" />
-    <option name="LAST_COMMIT_MESSAGE" value="install laravel-mix" />
+    <MESSAGE value="load html code and css code" />
+    <MESSAGE value="install font awsome" />
+    <MESSAGE value="edit file css font awsome" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit file css font awsome" />
   </component>
   <component name="WindowStateProjectService">
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604552898633">

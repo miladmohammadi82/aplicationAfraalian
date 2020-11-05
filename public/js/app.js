@@ -12957,6 +12957,20 @@ var app = new Vue({
     name: "Hello milad!"
   }
 });
+var menuBtn = document.querySelector('.menu-btn');
+var menuOpen = false;
+menuBtn.addEventListener('click', function () {
+  if (!menuOpen) {
+    menuBtn.classList.add('open');
+    menuOpen = true;
+  } else {
+    menuBtn.classList.remove('open');
+    menuOpen = false;
+  }
+});
+document.querySelector('.menu-btn').addEventListener('click', function () {
+  return document.querySelector('.main-menu').classList.toggle('show');
+});
 
 /***/ }),
 
