@@ -227,6 +227,10 @@ a{
     right: 1124px;
 }
 
+#carousel-1{
+    z-index: 1;
+}
+
 @media (max-width: 1230px){
     .main-nav ul.main-menu{
 
