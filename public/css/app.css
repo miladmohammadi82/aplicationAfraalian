@@ -28,6 +28,7 @@ a{
     width: 100%;
     height: 100px;
     background: #fff;
+    z-index: 300015;
 }
 
 .main-nav{
@@ -35,7 +36,7 @@ a{
     align-items: center;
     height: 60px;
     justify-content: space-between;
-    padding: 22px 0;
+    padding: 50px 0;
     font-size: 20px;
 }
 
@@ -72,6 +73,10 @@ a{
     border-radius: 5px;
     color: #fff;
     cursor: pointer;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
 }
 
 /*start menu burger*/
@@ -152,13 +157,15 @@ a{
 
 }
 
+
+
 .dropdown ul{
     background:#d56400;
     height: 136px;
     width: 116px;
     border-radius: 0 0 20px 20px;
     transition: .5s;
-
+    z-index: 99999999999999;
 }
 
 
@@ -211,6 +218,14 @@ a{
 }
 /*start media*/
 
+.v-window__prev button{
+    background: rgba(0,0,0,.3);
+    border-radius: 50%;
+    position: absolute;
+    margin: 0 16px;
+    z-index: 1;
+    right: 1124px;
+}
 
 @media (max-width: 1230px){
     .main-nav ul.main-menu{
@@ -303,8 +318,15 @@ a{
 
 }
 
+.v-window__prev{
+    margin-right: 40px;
+}
+
 /*End media*/
 
+/*Start slider*/
+
+/*End slider*/
 /*!
  * Font Awesome Pro 5.15.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license (Commercial License)

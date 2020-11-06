@@ -12,8 +12,8 @@
         </div>
         <ul class="main-menu">
           <li id="register-btn-mobile">
-            <button class="btn-register-system">ورود</button>
-            <button class="btn-register-system">ثبت نام</button>
+            <button class="btn-register-system"><p>ورود</p></button>
+            <button class="btn-register-system"><p>ثبت نام</p></button>
           </li>
 
           <li><a href="#">خانه</a></li>
