@@ -154,7 +154,6 @@ a{
     padding-top: 20px;
     display: none;
     transition: .5s;
-
 }
 
 
@@ -228,7 +227,7 @@ a{
 }
 
 #carousel-1{
-    z-index: 1;
+   z-index: -1;
 }
 
 @media (max-width: 1230px){

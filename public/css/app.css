@@ -91,10 +91,6 @@ a{
     transition: all 0.5s ease-in-out;
 }
 
-#carousel-1{
-    z-index: -1 !important;
-}
-
 .menu-btn .menu-btn-burger{
     width: 50px;
     height: 6px;
@@ -158,8 +154,10 @@ a{
     padding-top: 20px;
     display: none;
     transition: .5s;
-    /*z-index: 9999;*/
 }
+
+
+
 .dropdown ul{
     background:#d56400;
     height: 136px;
@@ -226,6 +224,10 @@ a{
     margin: 0 16px;
     z-index: 1;
     right: 1124px;
+}
+
+#carousel-1{
+   z-index: -1;
 }
 
 @media (max-width: 1230px){
