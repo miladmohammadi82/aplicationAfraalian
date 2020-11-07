@@ -2,6 +2,7 @@ window.Vue = require('vue')
 import header from "./components/header";
 import slider from "./components/slider";
 import vuetify from './plugins/vuetify';
+import servisess from "./components/srvisess"
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 Vue.use(BootstrapVue)
 Vue.use(IconsPlugin)
@@ -9,7 +10,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 Vue.component('header-menu', header)
 Vue.component('image-slider', slider)
-
+Vue.component('servisess', servisess)
 
 const app = new Vue({
     el: "#app",
