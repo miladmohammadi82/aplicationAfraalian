@@ -18,7 +18,10 @@
   <component name="ChangeListManager">
     <list default="true" id="2727aa41-6a5b-446b-a802-386415cf98cd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/image-slider/banner3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/image-slider/banner3.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/app.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +59,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/images/image-slider" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -70,19 +73,19 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\afraalian aplication\public\js" />
-      <recent name="C:\afraalian aplication\public" />
-      <recent name="C:\afraalian aplication\public\css" />
-      <recent name="C:\afraalian aplication\src\css" />
-      <recent name="C:\afraalian aplication\public\images\image-slider" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\afraalian aplication\public\js" />
       <recent name="C:\afraalian aplication\public" />
       <recent name="C:\afraalian aplication\src\css" />
       <recent name="C:\afraalian aplication\public\css" />
       <recent name="C:\afraalian aplication\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\afraalian aplication\public\images\image-slider" />
+      <recent name="C:\afraalian aplication\public\js" />
+      <recent name="C:\afraalian aplication\public" />
+      <recent name="C:\afraalian aplication\public\css" />
+      <recent name="C:\afraalian aplication\src\css" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -181,10 +184,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1604584751088" />
-    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605215757576">
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605290892483">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1605215757576" />
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1605290892483" />
     <state width="1323" height="172" key="GridCell.Tab.0.bottom" timestamp="1604504484147">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -201,6 +204,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="172" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604504484147" />
+    <state x="537" y="0" key="RollbackChangesDialog" timestamp="1605285534904">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="537" y="0" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1605285534904" />
     <state x="184" y="9" key="SettingsEditor" timestamp="1604575549049">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
