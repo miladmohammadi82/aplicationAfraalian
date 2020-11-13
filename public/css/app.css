@@ -154,6 +154,7 @@ a{
     padding-top: 20px;
     display: none;
     transition: .5s;
+    z-index: 9999;
 }
 
 
@@ -212,6 +213,7 @@ a{
 }
 
 
+
 .right-menu a button:focus + li ul.search{
     opacity: 1;
 }
@@ -229,6 +231,55 @@ a{
 #carousel-1{
    z-index: -1;
 }
+
+
+/* Start Slider*/
+.banner-aria{
+    width: 100%;
+}
+
+
+.owl-carousel .item img{
+    width: 100%;
+}
+
+
+.owl-carousel .owl-nav button{
+    position: absolute;
+    top: 35%;
+    outline: none;
+}
+
+.owl-carousel .owl-nav button.owl-next{
+    left: 0;
+}
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev{
+    width: 30px;
+    height: 60px;
+    text-align: center;
+    margin: 44px 0 0;
+}
+
+.owl-carousel .owl-nav button.owl-next span{
+    font-size: 35px;
+    color: #fff;
+    background-color: rgba(0,0,0,.3);
+    margin-right: -14px;
+    padding: 0 1rem;
+}
+
+.owl-carousel .owl-nav button.owl-prev span{
+    font-size: 35px;
+    color: #fff;
+    background-color: rgba(0,0,0,.3);
+    padding: 0 1rem;
+}
+
+.owl-carousel .owl-nav button.owl-prev{
+    right: 0;
+}
+/* End Slider*/
 
 @media (max-width: 1230px){
     .main-nav ul.main-menu{
