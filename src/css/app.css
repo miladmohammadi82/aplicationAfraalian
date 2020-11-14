@@ -378,6 +378,27 @@ a{
 
 /*End media*/
 
-/*Start slider*/
+/*Start servisess*/
 
-/*End slider*/
+.servisess{
+    padding-top: 20px;
+}
+
+
+
+
+.servisess .items-servisess{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.servisess .items-servisess .servisess-item{
+    padding: 20px 53px;
+    text-align: center;
+}
+
+.servisess .items-servisess .servisess-item p{
+    color: #262626;
+}
+/*End servisess*/
