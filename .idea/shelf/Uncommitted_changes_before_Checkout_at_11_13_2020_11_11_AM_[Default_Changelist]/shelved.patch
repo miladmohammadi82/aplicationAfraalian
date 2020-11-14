@@ -1,0 +1,16 @@
+Index: mix-manifest.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\r\n    \"/js/app.js\": \"/js/app.js\"\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- mix-manifest.json	(revision c8d74ff2714dfd8244c371b27e91bdd6047cf78f)
++++ mix-manifest.json	(date 1605294610487)
+@@ -1,3 +1,4 @@
+ {
+-    "/js/app.js": "/js/app.js"
++    "/public/js/app.js": "/public/js/app.js",
++    "/public/css/app.css": "/public/css/app.css"
+ }
+diff --git public/js/app.js public/js/app.js
