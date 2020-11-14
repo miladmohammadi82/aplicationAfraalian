@@ -29,6 +29,7 @@ a{
     height: 100px;
     background: #fff;
     z-index: 300015;
+    position: fixed;
 }
 
 .main-nav{
@@ -234,8 +235,9 @@ a{
 
 
 /* Start Slider*/
-.banner-aria{
+#banner-aria{
     width: 100%;
+    padding-top: 125px;
 }
 
 
@@ -305,7 +307,7 @@ a{
         z-index: 200;
         overflow-x: hidden;
         overflow-y: auto;
-        transform: translateX(570px);
+        transform: translateX(607px);
         transition: 1s;
     }
 
