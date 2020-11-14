@@ -1,13 +1,16 @@
 window.Vue = require('vue')
-import header from "./components/header";
-
-Vue.component('header-menu', header)
+import vuetify from './plugins/vuetify';
+import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
+Vue.use(BootstrapVue)
+Vue.use(IconsPlugin)
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 
 const app = new Vue({
     el: "#app",
-    data: {},
-
+    vuetify,
+    data: {}
 })
 
 const menuBtn = document.querySelector('.menu-btn');
