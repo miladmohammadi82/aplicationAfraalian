@@ -12581,7 +12581,6 @@ module.exports = g;
 window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
 var app = new Vue({
   el: "#app",
-  vuetify: vuetify,
   data: {}
 });
 var menuBtn = document.querySelector('.menu-btn');
