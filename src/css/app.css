@@ -286,7 +286,7 @@ a{
 }
 /* End Slider*/
 
-@media (max-width: 1230px){
+@media (max-width: 1050px){
     .main-nav ul.main-menu{
 
     }
@@ -331,11 +331,6 @@ a{
         color: #ffffff;
     }
 
-
-    .main-nav ul.right-menu li:last-child{
-        display: none;
-    }
-
     .main-menu .search-mobile input{
         display: block;
         border: none;
@@ -373,8 +368,9 @@ a{
 
 
 @media (max-width: 700px){
-
-
+    .main-nav ul.right-menu li:last-child{
+        display: none;
+    }
 }
 
 .v-window__prev{
