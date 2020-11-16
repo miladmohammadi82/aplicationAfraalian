@@ -6,5 +6,4 @@ mix.styles(
     [
         'src/css/app.css',
         'src/css/all.min.css',
-        'src/css/bootstrap-grid.css'
     ],'public/css/app.css')
