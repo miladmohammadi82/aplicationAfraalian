@@ -12585,21 +12585,25 @@ __webpack_require__.r(__webpack_exports__);
 
 new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
   el: "#app",
-  data: {}
-});
-var menuBtn = document.querySelector('.menu-btn');
-var menuOpen = false;
-menuBtn.addEventListener('click', function () {
-  if (!menuOpen) {
-    menuBtn.classList.add('open');
-    menuOpen = true;
-  } else {
-    menuBtn.classList.remove('open');
-    menuOpen = false;
+  data: {
+    menuOpen: false,
+    mobileMenu: false
+  },
+  methods: {
+    menuOpenshow: function menuOpenshow() {
+      if (!this.menuOpen) {
+        this.menuOpen = true;
+      } else {
+        this.menuOpen = false;
+      }
+
+      if (!this.mobileMenu) {
+        this.mobileMenu = true;
+      } else {
+        this.mobileMenu = false;
+      }
+    }
   }
-});
-document.querySelector('.menu-btn').addEventListener('click', function () {
-  document.querySelector('.main-menu').classList.toggle('show');
 });
 
 /***/ }),

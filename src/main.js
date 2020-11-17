@@ -3,26 +3,27 @@ import Vue from 'vue'
 
 new Vue({
     el: "#app",
-    data: {}
-})
+    data: {
+        menuOpen: false,
+        mobileMenu: false
+    },
+    
+    methods: {
+        menuOpenshow(){
+            if(!this.menuOpen){
+                this.menuOpen = true
+            }
+            else{
+                this.menuOpen = false
+            }
 
-
-const menuBtn = document.querySelector('.menu-btn');
-
-let menuOpen = false;
-
-menuBtn.addEventListener('click', () => {
-    if (!menuOpen) {
-        menuBtn.classList.add('open');
-        menuOpen = true;
-    } else {
-        menuBtn.classList.remove('open');
-        menuOpen = false;
+            if(!this.mobileMenu){
+                this.mobileMenu = true
+            }
+            else{
+                this.mobileMenu = false
+            }
+        }
     }
-})
-
-
-document.querySelector('.menu-btn').addEventListener('click', () => {
-    document.querySelector('.main-menu').classList.toggle('show')
 })
 
