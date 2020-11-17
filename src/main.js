@@ -1,12 +1,11 @@
-window.Vue = require('vue')
+import Vue from 'vue'
 
 
-
-
-const app = new Vue({
+new Vue({
     el: "#app",
     data: {}
 })
+
 
 const menuBtn = document.querySelector('.menu-btn');
 
